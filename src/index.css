@@ -1,4 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@400;500;600&display=swap");
+
 :root {
+  --clr-primary: #1ecbe1;
+  --clr-secondary: #e1341e;
+  --bg-light: #2d2d2d;
+  --bg-dark: #010101;
+  --white: #ffffff;
+  --text-light: #616161;
+  --max-width: 1200px;
+  --max-width-full: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  padding:0 1rem ;
+}
+
+
+/* /////////////// */
+/* flex */
+/* ////////////// */
+.flex{
+  display: flex;
+}
+.flex-base{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +109,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
