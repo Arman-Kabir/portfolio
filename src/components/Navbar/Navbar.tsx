@@ -2,7 +2,7 @@
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
 
