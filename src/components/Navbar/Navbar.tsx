@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header className='flex-base navbar'>
         <div>
-            <h2>Arman kabir</h2>
+            <h3>Arman's Portfolio</h3>
         </div>
         <nav>
           <span><a href="#home">Home</a></span>
