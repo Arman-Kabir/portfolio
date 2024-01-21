@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: red;
+  flex: 1;
+  height: calc(100vh - 60px);
+  position: sticky;
+  top: 60px;
+  /* top:0; */
+  /* bottom: 0; */
+}
+.sidebar__container {
+  /* height: calc(100vh - 0vh); */
+  /* position: fixed;
+  top: 0;
+  bottom: 0; */
+}

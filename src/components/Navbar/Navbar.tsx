@@ -1,6 +1,6 @@
 // import { Link } from 'react-router-dom';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Navbar.css';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
@@ -8,7 +8,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
 
 const Navbar = () => {
   return (
-    <header className='flex-base'>
+    <header className='flex-base navbar'>
         <div>
             <h2>Arman kabir</h2>
         </div>
