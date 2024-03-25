@@ -1,9 +1,21 @@
-.hero-content{
-    display: flex;
-    align-items: center;
-}
-.hero-container{
-    /* padding-inline: 0; */
+.hero_container{
+    padding: 10rem 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.hero_image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero_image img{
+    width:15rem;
 }

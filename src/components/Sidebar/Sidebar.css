@@ -10,14 +10,19 @@
   padding: 5rem 1rem;
 }
 
+.image-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .myImage2{
-    width: 10rem;
+    width: 12rem;
     border-radius: 50%;
 }
 
 .intro{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+    /* justify-content: center; */
+    align-items: center;
 }

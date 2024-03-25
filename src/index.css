@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --clr-primary: #1ecbe1;
   --clr-secondary: #e1341e;
   --bg-clr: #262626;
-  --bg-light: #2d2d2d;
+  --bg-light: #fff;
   --bg-dark: #010101;
-  --white: #ffffff;
-  --text-light: #616161;
-  --max-width: 1200px;
-  --max-width-full: 100%;
+  --text-white: #ffffff;
+  --text-dark: #010101;
+  --max-width: 80rem;
 }
 
 * {
@@ -19,28 +18,27 @@
   scroll-behavior: smooth;
 }
 
-body {
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: "Poppins", sans-serif; */
-  /* font-weight: 400; */
-  background-color: var(--bg-clr);
-  color: var(--white);
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
 }
 
-h1,
-h2,
-h3 {
-  /* font-family:  "Montserrat", sans-serif; */
-  /* margin-bottom: .5rem; */
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 400; */
+  background-color: var(--bg-light);
+  color: var(--text-dark);
 }
+
+
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 2.5rem;
   letter-spacing: 0.3rem;
-}
+  margin: .5rem 0;
+} 
 h2 {
   font-weight: 400;
   font-size: 3rem;
@@ -48,24 +46,27 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 2rem;
   line-height: 2.5rem;
+  margin: .5rem 0;
+}
+h4{
+  font-weight: 300;
+  letter-spacing: .7rem;
+  margin: .5rem 0;
 }
 
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+p {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-hr{
-  width: 70%;
+hr {
+  width: 60%;
   /* height: 1px; */
   border: 0.5px solid #fff;
-  color:  var(--bg-dark);
+  color: var(--bg-dark);
   margin: 1rem auto;
 }
 
@@ -74,10 +75,10 @@ a {
   color: inherit;
   padding: 0 1rem;
 }
-img {
+/* img {
   display: flex;
   width: 100%;
-}
+} */
 
 /* Image rounded */
 .rounded__image {
@@ -97,8 +98,3 @@ img {
 }
 
 /* Container */
-.container {
-  margin: 0 auto;
-  padding: 5rem 1rem;
-  max-width: var(--max-width);
-}
