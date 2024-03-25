@@ -40,14 +40,14 @@ h1 {
   margin: .5rem 0;
 } 
 h2 {
-  font-weight: 400;
-  font-size: 3rem;
+  font-weight: 700;
+  font-size: 2rem;
   line-height: 2.5rem;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   margin: .5rem 0;
 }
@@ -55,6 +55,7 @@ h4{
   font-weight: 300;
   letter-spacing: .7rem;
   margin: .5rem 0;
+  font-size: 1rem;
 }
 
 p {

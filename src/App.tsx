@@ -7,21 +7,16 @@ import Page from './pages/page';
 
 function App() {
   return (
-    <div className='container'>
+    <div>
+
       <Navbar></Navbar>
 
-      <HeroSection></HeroSection>
+      <div className=''>
+        <HeroSection></HeroSection>
+      </div >
 
+    </div>
 
-
-
-      {/* <div className='layout'>
-        {/* <Sidebar></Sidebar> */}
-      {/* <Page></Page> */}
-      {/* </div> * /} */}
-
-
-    </div >
   )
 }
 
