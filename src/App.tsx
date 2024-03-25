@@ -1,8 +1,7 @@
 import './App.css'
+import About from './components/About/About';
 import HeroSection from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar/Sidebar';
-import Page from './pages/page';
 
 
 function App() {
@@ -13,6 +12,7 @@ function App() {
 
       <div className=''>
         <HeroSection></HeroSection>
+        <About></About>
       </div >
 
     </div>
