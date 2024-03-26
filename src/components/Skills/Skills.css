@@ -1,7 +1,16 @@
+.skills_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+  margin-left: 30rem;
+}
 .front_end,
 .back_end {
   display: flex;
-  justify-content: space-around;
+  gap:10rem;
+  /* justify-content: space-between; */
+  /* gap:5rem; */
 }
 
 .stack_name {
@@ -19,9 +28,12 @@
 }
 
 .stack_details {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  /* width:40rem; */
 }
-.first_row,.second_row,.third_row{
-    display: flex;
+.first_row,
+.second_row,
+.third_row {
+  display: flex;
 }
