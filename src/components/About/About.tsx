@@ -1,10 +1,12 @@
 // import React from 'react';
+
+import { SectionHeader } from '../SectionHeader/SectionHeader';
 import './About.css';
-import SectionHeader from '../SectionHeader/sectionHeader'; // Ensure the correct path to SectionHeader component
+
 
 const About = () => {
     return (
-        <section id='about'>
+        <section id='about' className='section_container'>
             <SectionHeader title={'About Me'} />
 
             <div className='container about_container'>
@@ -22,9 +24,9 @@ const About = () => {
                 </p>
 
                 <p>In the back-end, m expertise are NodeJs,ExpressJs, MongoDB, SQL, PostGreSQL, Mongoose,
-                Prisma. I use both SQL and NoSQL based databases in my projects. I write backend api i MVC
-                pattern or modular pattern. I use Zod for data validation and JWT forauthorization and
-                authentication.Feel free to connect with me. I am eager to collaborate on exciting projects.
+                    Prisma. I use both SQL and NoSQL based databases in my projects. I write backend api i MVC
+                    pattern or modular pattern. I use Zod for data validation and JWT for authorization and
+                    authentication.Feel free to connect with me. I am eager to collaborate on exciting projects.
                 </p>
 
             </div>

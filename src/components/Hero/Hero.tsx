@@ -3,7 +3,7 @@ import hero_image from '../../assets/images/arman2.png';
 
 const HeroSection = () => {
   return (
-    <section className="hero" id="hero">
+    <section className="section_container" id="hero">
       <div className="container hero_container">
 
         <div className="hero_content">

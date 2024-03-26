@@ -1,6 +1,10 @@
 import './sectionHeader.css';
 
-const SectionHeader = ({ title }) => {
+interface Title {
+  title: string;
+}
+
+export function SectionHeader ({ title }: Title) {
   return (
     <div className='section_header'>
       <h2>{title}</h2>
@@ -8,4 +12,4 @@ const SectionHeader = ({ title }) => {
   )
 }
 
-export default SectionHeader;
+// export default SectionHeader;
