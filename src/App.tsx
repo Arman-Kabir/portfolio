@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About/About';
 import HeroSection from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className=''>
         <HeroSection></HeroSection>
         <About></About>
+        <Skills></Skills>
       </div >
 
     </div>

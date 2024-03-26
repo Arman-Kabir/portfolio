@@ -1,0 +1,27 @@
+.front_end,
+.back_end {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stack_name {
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stack_name .box2 {
+  width: 5px;
+  height: 1.7rem;
+  border-radius: 1rem;
+  background-color: #000;
+}
+
+.stack_details {
+    display: flex;
+    flex-direction: column;
+}
+.first_row,.second_row,.third_row{
+    display: flex;
+}
