@@ -37,9 +37,10 @@ const Contact = () => {
                 </div>
 
                 <div className='form_container'>
+                    
 
                     <form onSubmit={handleSubmit(onSubmit)}>
-                        {/* register your input into the hook by invoking the "register" function */}
+                    <h2>Give me a message</h2>
                         <label>Name</label>
                         <input placeholder='your name'  {...register("name")} />
 
