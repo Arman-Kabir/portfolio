@@ -7,7 +7,7 @@ interface Title {
 export function SectionHeader ({ title }: Title) {
   return (
     <div className='section_header'>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
     </div>
   )
 }

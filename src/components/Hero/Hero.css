@@ -1,6 +1,7 @@
 .hero_container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    height: 70vh;
 }
 .hero_content{
     display: flex;
@@ -13,8 +14,10 @@
 .hero_image{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .hero_image img{
-    width:15rem;
+    width:300px;
+    height: 300px;
 }

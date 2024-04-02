@@ -1,4 +1,5 @@
-.section_header{
-    display: flex;
-    justify-content: center;
+.section_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
 }

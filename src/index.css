@@ -22,9 +22,15 @@
   margin: 0 auto;
   max-width: var(--max-width);
 }
+section:nth-child(odd){
+  background-color: #fff;
+}
+section:nth-child(even){
+  background-color: #f9f8fd;
+}
 
 .section_container {
-  padding: 7rem 0 3rem 0;
+  padding: 7rem 0;
 }
 
 body {
