@@ -3,21 +3,19 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import './Contact.css';
 
 type Inputs = {
-    example: string
-    exampleRequired: string
+    name: string
+    email: string
+    message: string
 }
 
 const Contact = () => {
     const {
         register,
         handleSubmit,
-        watch,
         formState: { errors },
     } = useForm<Inputs>()
 
     const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
-
-    console.log(watch("example"))
 
     return (
         <section id='contact' className='section_container'>
@@ -42,16 +40,24 @@ const Contact = () => {
 
                     <form onSubmit={handleSubmit(onSubmit)}>
                         {/* register your input into the hook by invoking the "register" function */}
-                        <input defaultValue="test" {...register("example")} />
+                        <label>Name</label>
+                        <input placeholder='your name'  {...register("name")} />
 
                         {/* include validation with required or other standard HTML validation rules */}
-                        <input {...register("exampleRequired", { required: true })} />
-                        {/* errors will return when field validation fails  */}
-                        {errors.exampleRequired && <span>This field is required</span>}
+                        <label>Email</label>
+                        <input placeholder='your email' {...register("email", { required: true })} />
 
-                        <input type="submit" />
+                        <label>Message</label>
+                        <input placeholder='your message' {...register("message", { required: true })} />
+                        {/* errors will return when field validation fails  */}
+                        {errors.email && <span>Plz, write your email</span>}
+                        {errors.message && <span>Plz, write me a message</span>}
+
+                        <button className='submit' type="submit">Submit </button>
+                        
+                        
                     </form>
-                    
+
                 </div>
             </div>
         </section>
