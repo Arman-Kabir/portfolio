@@ -37,25 +37,24 @@ const Contact = () => {
                 </div>
 
                 <div className='form_container'>
-                    
+
 
                     <form onSubmit={handleSubmit(onSubmit)}>
-                    <h2>Give me a message</h2>
-                        <label>Name</label>
+                        <h2>Give me a message</h2>
+                        {/* <label>Name</label> */}
                         <input placeholder='your name'  {...register("name")} />
 
                         {/* include validation with required or other standard HTML validation rules */}
-                        <label>Email</label>
+                        {/* <label>Email</label> */}
                         <input placeholder='your email' {...register("email", { required: true })} />
 
-                        <label>Message</label>
-                        <input placeholder='your message' {...register("message", { required: true })} />
+                        {/* <label>Message</label> */}
+                        <textarea rows="4" placeholder='your message' {...register("message", { required: true })} />
                         {/* errors will return when field validation fails  */}
                         {errors.email && <span>Plz, write your email</span>}
                         {errors.message && <span>Plz, write me a message</span>}
 
                         <button className='submit' type="submit">Submit </button>
-                        
                         
                     </form>
 
