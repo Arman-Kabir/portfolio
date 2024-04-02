@@ -1,5 +1,5 @@
 import './Hero.css';
-import hero_image from '../../assets/images/arman2.png';
+// import hero_image from '../../assets/images/arman2.png';
 
 const HeroSection = () => {
   return (
@@ -14,9 +14,9 @@ const HeroSection = () => {
           <h4>JavaScript Programmer</h4>
         </div>
 
-        <div className='hero_image'>
+        {/* <div className='hero_image'>
           <img src={hero_image} alt="ArmanImg" className='rounded__image' />
-        </div>
+        </div> */}
 
       </div>
 
