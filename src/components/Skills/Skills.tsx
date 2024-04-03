@@ -12,7 +12,7 @@ const Skills = () => {
                 <div className='front_end'>
 
                     <div className='stack_name'>
-                        <h2>Front end</h2>
+                        <h2>Frontend</h2>
                         <div className='box2' />
                     </div>
 
@@ -42,7 +42,7 @@ const Skills = () => {
                 <div className='back_end'>
 
                     <div className='stack_name'>
-                        <h2>Back end</h2>
+                        <h2>Backend</h2>
                         <div className='box2' />
                     </div>
 
