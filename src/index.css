@@ -73,10 +73,20 @@ p {
   font-weight: 400;
   letter-spacing: 0.1rem;
   word-spacing: 0.2rem;
-  margin: 1rem 0;
-  line-height: 1.5rem;
+  margin: .2rem 0;
+  line-height: 1.7rem;
   text-align: justify;
+}
+.para{
   text-indent: 2rem;
+  margin: 1rem 0;
+}
+.boldP{
+  font-weight: 700;
+}
+.smallP{
+  font-size: 11px;
+  font-weight: 500;
 }
 
 hr {

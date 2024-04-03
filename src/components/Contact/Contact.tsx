@@ -25,14 +25,20 @@ const Contact = () => {
 
                 <div className='address_container'>
                     <div>
-                        <p>Email  : armankabir8@gmail.com</p>
-                        <p>Mobile: +8801926204425(Whatsapp available)</p>
-                        <p>Github: https://github.com/Arman-Kabir </p>
+                        <p><span className='boldP'>Email :</span>
+                            <span className=''>armankabir8@gmail.com</span></p>
+
+                        <p> <span className='boldP'>Mobile :</span>
+                            <span className=''>+8801926204425(Whatsapp available)</span></p>
+
+                        <p><span className='boldP'>Github :</span>
+                            <span className=''>https://github.com/Arman-Kabir</span> </p>
                     </div>
 
                     <div>
-                        <p>My Address:</p>
-                        <p>Bagerhat, Khulna, Bangladesh</p>
+                        <p className='boldP'>My Address:</p>
+                        <p>Bagerhat district, Khulna, Bangladesh</p>
+                        <p className='smallP'>Near Sixty Dome Mosque, a UNESCO World Heritage site </p>
                     </div>
                 </div>
 
@@ -55,7 +61,7 @@ const Contact = () => {
                         {errors.message && <span>Plz, write me a message</span>}
 
                         <button className='submit' type="submit">Submit </button>
-                        
+
                     </form>
 
                 </div>

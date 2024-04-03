@@ -5,18 +5,21 @@
 .address_container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
   flex: 1;
+  justify-content: flex-end;
 }
+
 .form_container {
   flex: 1;
-  background: url(../../assets//images/office.jpg) center/cover;
+  background: url(../../assets//images/mosque.jpg) center/cover;
 
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
   position: relative;
+  border-radius: 10px;
 }
 .form_container::after {
   content: "";
@@ -26,6 +29,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 form {
   display: flex;
@@ -34,13 +38,10 @@ form {
   z-index: 999;
 }
 
-label {
-  margin-bottom: 1rem;
-}
 input,
 textarea {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   border: none;
   border-bottom: 1px solid #fff;
   width: 15rem;
