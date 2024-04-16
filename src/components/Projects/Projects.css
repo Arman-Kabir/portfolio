@@ -1,0 +1,9 @@
+.projects_container{
+    
+    margin: 0 auto;
+}
+.project_categories{ 
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+}

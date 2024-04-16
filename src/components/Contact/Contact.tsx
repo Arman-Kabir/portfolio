@@ -60,7 +60,7 @@ const Contact = () => {
                         {errors.email && <span>Plz, write your email</span>}
                         {errors.message && <span>Plz, write me a message</span>}
 
-                        <button className='submit' type="submit">Submit </button>
+                        <button className='btn' type="submit">Submit </button>
 
                     </form>
 
