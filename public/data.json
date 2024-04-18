@@ -1,66 +1,66 @@
 [
-    {
-        "id":1,
-        "name":"It-House",
-        "tags":"Nextjs",
-        "tech":["nextJs" ,"Node","Ant Design"],
-        "Description" :"great project"
-    },
-    {
-        "id":1,
-        "name":"It-House",
-        "tags":"Nextjs",
-        "tech":["nextJs" ,"Node","Ant Design"],
-        "Description" :"great project"
-    },
-    {
-        "id":1,
-        "name":"It-House",
-        "tags":"Nextjs",
-        "tech":["nextJs" ,"Node","Ant Design"],
-        "Description" :"It service"
-    },
-    {
-        "id":2,
-        "name":"PC-Maker",
-        "tags":"Nextjs",
-        "tech":["nextJs" ,"Node"],
-        "Description" :"pc builder"
-    },
-    {
-        "id":3,
-        "name":"Lambo-parts",
-        "tags":"Reactjs",
-        "tech":["Reactjs" ,"Node","Tailwind css"],
-        "Description" :"Manufacturer website"
-    },
-    {
-        "id":4,
-        "name":"penguin fashion",
-        "tags":"Reactjs",
-        "tech":["Reactjs" ,"Node","Tailwind css"],
-        "Description" :"Manufacturer website"
-    },
-    {
-        "id":5,
-        "name":"Elegance convention center ",
-        "tags":"landing-page",
-        "tech":["Reactjs" ,"Node","css"],
-        "Description" :"Manufacturer website"
-    },
-    {
-        "id":6,
-        "name":"Cow-hut",
-        "tags":"node",
-        "tech":["Reactjs" ,"Node","css"],
-        "Description" :"digital cow buy sell site"
-    },
-    {
-        "id":7,
-        "name":"book",
-        "tags":"node",
-        "tech":["Node","postgres"],
-        "Description" :"book store"
-    },
+  {
+    "id": 1,
+    "name": "It-House",
+    "tags": "Nextjs",
+    "tech": ["nextJs", "Node", "Ant Design"],
+    "Description": "great project"
+  },
 
+  {
+    "id": 2,
+    "name": "PC-Maker",
+    "tags": "Nextjs",
+    "tech": ["nextJs", "Node"],
+    "Description": "pc builder"
+  },
+  {
+    "id": 3,
+    "name": "Lambo-parts",
+    "tags": "Reactjs",
+    "tech": ["Reactjs", "Node", "Tailwind css"],
+    "Description": "Manufacturer website"
+  },
+  {
+    "id": 4,
+    "name": "penguin fashion",
+    "tags": "Reactjs",
+    "tech": ["Reactjs", "Node", "Tailwind css"],
+    "Description": "Manufacturer website"
+  },
+  {
+    "id": 5,
+    "name": "Elegance convention center ",
+    "tags": "landing-page",
+    "tech": ["Reactjs", "Node", "css"],
+    "Description": "Manufacturer website"
+  },
+  {
+    "id": 6,
+    "name": "Cow-hut",
+    "tags": "node",
+    "tech": ["Reactjs", "Node", "css"],
+    "Description": "digital cow buy sell site"
+  },
+  {
+    "id": 7,
+    "name": "book",
+    "tags": "node",
+    "tech": ["Node", "postgres"],
+    "Description": "book store"
+  },
+  {
+    "id": 8,
+    "name": "It-House",
+    "tags": "Nextjs",
+    "tech": ["nextJs", "Node", "Ant Design"],
+    "Description": "great project"
+  },
+  {
+    "id": 9,
+    "name": "It-House",
+    "tags": "Nextjs",
+    "tech": ["nextJs", "Node", "Ant Design"],
+    "Description": "It service"
+  }
 ]
