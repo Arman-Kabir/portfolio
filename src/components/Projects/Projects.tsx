@@ -57,7 +57,7 @@ const Projects = () => {
 
                 </div>
 
-                <div className="project_lists">
+                <div className="column_three">
                     {data &&
                         data.filter((item) => {
                             return click === ('' || 'all') ? item :
