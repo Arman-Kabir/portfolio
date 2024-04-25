@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "It-House",
-    "tags": "Nextjs",
+    "tags": ["nextjs"],
     "tech": ["nextJs", "Node", "Ant Design"],
     "Description": "great project"
   },
@@ -10,21 +10,21 @@
   {
     "id": 2,
     "name": "PC-Maker",
-    "tags": "Nextjs",
+    "tags": "nextjs",
     "tech": ["nextJs", "Node"],
     "Description": "pc builder"
   },
   {
     "id": 3,
     "name": "Lambo-parts",
-    "tags": "Reactjs",
+    "tags": "react",
     "tech": ["Reactjs", "Node", "Tailwind css"],
     "Description": "Manufacturer website"
   },
   {
     "id": 4,
     "name": "penguin fashion",
-    "tags": "Reactjs",
+    "tags": "react",
     "tech": ["Reactjs", "Node", "Tailwind css"],
     "Description": "Manufacturer website"
   },
@@ -52,14 +52,14 @@
   {
     "id": 8,
     "name": "It-House",
-    "tags": "Nextjs",
+    "tags": "next",
     "tech": ["nextJs", "Node", "Ant Design"],
     "Description": "great project"
   },
   {
     "id": 9,
     "name": "It-House",
-    "tags": "Nextjs",
+    "tags": "next",
     "tech": ["nextJs", "Node", "Ant Design"],
     "Description": "It service"
   }

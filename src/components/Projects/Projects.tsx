@@ -4,11 +4,19 @@ import './Projects.css';
 import Project from '../Project/Project';
 
 const Projects = () => {
-    const [data, setData] = useState([]);
+    let [data, setData] = useState([]);
+    let [filteredData, setFilteredData] = useState([]);
 
-    console.log(data);
-    function handleButton(arg) {
+    // console.log(data);
+    function handleButton(arg: any) {
+        const filtered = data.filter((item) => {
+            return item.tags.includes(arg) || arg === 'all'
+        })
         console.log(arg);
+
+        console.log(filtered);
+
+        setFilteredData(filtered);
     }
 
     useEffect(() => {
@@ -17,6 +25,7 @@ const Projects = () => {
                 const response = await fetch('data.json');
                 const jsonData = await response.json();
                 setData(jsonData);
+                setFilteredData(jsonData);
 
             } catch (error) {
                 console.log(error);
@@ -47,8 +56,8 @@ const Projects = () => {
                 </div>
 
                 <div className="project_lists">
-                    {data &&
-                        data.map((project) => (
+                    {filteredData &&
+                        filteredData.map((project) => (
                             <Project project={project} key={project.id}></Project>
                         ))
                     }
