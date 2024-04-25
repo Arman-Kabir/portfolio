@@ -5,18 +5,20 @@ import Project from '../Project/Project';
 
 const Projects = () => {
     let [data, setData] = useState([]);
-    let [filteredData, setFilteredData] = useState([]);
+    let [click, setClick] = useState('');
+    // let [filteredData, setFilteredData] = useState([]);
 
-    // console.log(data);
+    // console.log(click);
     function handleButton(arg: any) {
-        const filtered = data.filter((item) => {
-            return item.tags.includes(arg) || arg === 'all'
-        })
-        console.log(arg);
+        setClick(arg);
+        // const filtered = data.filter((item) => {
+        //     return item.tags.includes(arg) || arg === 'all'
+        // })
+        // console.log(arg);
 
-        console.log(filtered);
+        // console.log(filtered);
 
-        setFilteredData(filtered);
+        // setFilteredData(filtered);
     }
 
     useEffect(() => {
@@ -25,7 +27,7 @@ const Projects = () => {
                 const response = await fetch('data.json');
                 const jsonData = await response.json();
                 setData(jsonData);
-                setFilteredData(jsonData);
+                // setFilteredData(jsonData);
 
             } catch (error) {
                 console.log(error);
@@ -56,8 +58,11 @@ const Projects = () => {
                 </div>
 
                 <div className="project_lists">
-                    {filteredData &&
-                        filteredData.map((project) => (
+                    {data &&
+                        data.filter((item) => {
+                            return click === ('' || 'all') ? item :
+                                item.tags.includes(click)
+                        }).map((project) => (
                             <Project project={project} key={project.id}></Project>
                         ))
                     }
