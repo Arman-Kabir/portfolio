@@ -8,23 +8,26 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
 const Navbar = () => {
   return (
     <header>
-      <div className='container  flex-base navbar'>
+      <div className='container'>
 
-        <div>
-          <h2>Arman's Portfolio</h2>
-        </div>
+        <div className="navbar_container">
+          <div>
+            <h2>Arman's Portfolio</h2>
+          </div>
 
-        <nav>
-          <span><a href="#home">Home</a></span>
-          <span><a href="#about">About</a></span>
-          <span><a href="#skills">Skills</a></span>
-          <span><a href="#projects">Projects</a></span>
-        </nav>
+          <nav className='close'>
+            <span><a href="#home">Home</a></span>
+            <span><a href="#about">About</a></span>
+            <span><a href="#skills">Skills</a></span>
+            <span><a href="#projects">Projects</a></span>
+          </nav>
 
-        <div>
-          <span> <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> </span>
-          <span> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> </span>
-          <span> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </span>
+          <div className='close'>
+            <span> <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> </span>
+            <span> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> </span>
+            <span> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </span>
+          </div>
+          
         </div>
       </div>
 

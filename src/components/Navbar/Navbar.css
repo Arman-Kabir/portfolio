@@ -9,10 +9,25 @@ header {
     0 0 0 2px white,
     0.3em 0.3em 1em rgba(20, 200, 0, 0.6); */
 }
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.close {
+  /* display: none; */
+}
 
 .navbar {
   height: 60px;
   position: sticky;
   top: 0;
-  left:0;
+  left: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .close {
+    display: none;
+  }
 }
