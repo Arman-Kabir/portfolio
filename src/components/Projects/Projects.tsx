@@ -41,7 +41,8 @@ const Projects = () => {
     return (
         <section className='section_container'>
             <SectionHeader title="My Projects"></SectionHeader>
-            <div className="  container projects_container">
+
+            <div className="container projects_container">
 
                 <div className='project_categories'>
 
